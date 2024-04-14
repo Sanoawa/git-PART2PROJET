@@ -1,0 +1,139 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.image h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}*/
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3bd2dd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 20px;
+    text-align: center;
+}
+
+.image img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid #ec7fe7;
+    transition: transform 0.3s;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+    height: 50%;
+    width: 50%;
+}
+
+.image h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.image p {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+
+
+.other-activities {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.other-activities h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.other-activities .image {
+    margin-bottom: 30px;
+}
+
+.other-activities .image img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.other-activities .image img:hover {
+    transform: scale(1.05);
+}
+
+.other-activities .image h3 {
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.other-activities .image p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+

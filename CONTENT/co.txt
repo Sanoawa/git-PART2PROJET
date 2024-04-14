@@ -1,0 +1,65 @@
+<?php
+//connexin à la base de donnée
+
+$servveur ="localhost";
+$utilisateur ="nom";
+$mot_de_pass=" ";
+$base_donnee ="Bielleterie1";
+
+$connexion = new mysqli($serveur,$utilisateur,$mot_de_pass,$base_de_donnee);
+ //verification de laconnexion
+
+ if ($connexion=connect_error){
+    die("echec de la connexion: " .^$connexion = connect_error);
+ }
+
+ //recuperation des donnees
+
+ $nom = $_POST['nom'];
+ $prenom = $_POST['prenom'];
+ $$email = $_POST['email'];
+ $mot_de_pass = $_POST[''];
+
+ $sql = "INSERT INTO utilisateur (nom,prenom,email,mot_de_pass) VALUES ('nom', 'prenom', 'email', 'mot_de_pass')";
+  if ($connexion =query($sql) ===TRUE) {
+    echo "inscription reussie.";
+  } else {
+    echo "Erreur : " . $sql . "<br>" . $connexion = erreur;
+  }
+   //fermeture de laconnection
+   $connexion = close();
+   ?>
+
+
+<?php
+//connexin à la base de donnée
+
+$servveur ="localhost";
+$utilisateur ="nom";
+$mot_de_pass=" ";
+$base_donnee ="Bielleterie1";
+
+$connexion = new mysqli($serveur,$utilisateur,$mot_de_pass,$base_de_donnee);
+ //verification de laconnexion
+
+ if ($connexion=connect_error){
+    die("echec de la connexion: " .^$connexion = connect_error);
+ }
+
+ //recuperation des donnees
+
+ $nombre_billet = $_POST['nombre_billet'];
+ $categorie = $_POST['categorie'];
+ $moyen_de_paiement = $_POST['moyen_de_paiement'];
+ $numero_carte = $_POST['numero_carte'];
+
+ $sql = "INSERT INTO reservation (nombre_billet, categorie, moyen_paiement, numero_carte) VALUES ('nombre_billet', 'categorie', 'moyen_paiement', 'numero_carte')";
+  if ($connexion =query($sql) ===TRUE) {
+    echo "Reservation reussie.";
+  } else {
+    echo "Erreur : " . $sql . "<br>" . $connexion = erreur;
+  }
+   //fermeture de laconnection
+   $connexion = close();
+   ?>
+

@@ -1,0 +1,125 @@
+
+<DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Service de Nounous</title>
+  <link rel="stylesheet" href="acceuil.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue chez merveille!</h1>
+  </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        
+           <li><a href="acceuil.html"></a><a href="activit.html">Activité</a></li>
+           <li><a href="acceuil.html"></a><a href="nounou.html">Nos Nounous</a></li>
+           <li><a href="acceuil.html"></a><a href="devenir.php">Devenir nounou</a></li>
+           <li><a href="acceuil.html"></a><a href="contact.html">Contact</a></li>
+  
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="background-image: url('images');">
+    <div class="hero-content">
+      <h2>Bienvenue chez Merveille</h2>
+      <p>La solution idéale pour la garde de vos enfants.</p>
+      <!--a href="inscri.html" class="btn">S'inscrire</a-->
+    </div>
+  </section>
+
+  
+  <!--section class="about">
+    <div class="container">
+      <div class="about-content">
+        <img src="télécharger.jpg" alt="À propos de nous">
+        <h2>A propos de Nous</h2>
+        <p>Nous sommes une équipe dévouée de professionnels de la garde d'enfants, offrant des services de nounous qualifiées et fiables pour répondre à vos besoins. Notre priorité est la sécurité, le bien-être et le bonheur de vos enfants. Nous comprenons l'importance de trouver la bonne personne pour prendre soin de vos petits, c'est pourquoi nous nous engageons à fournir un service de qualité et à établir des liens de confiance avec chaque famille que nous servons.</p>
+        <div></div>
+      <div  class="col50">
+      <div class="img">
+    </div>
+  </section-->  
+
+  <section class="A propos">
+    <div class="container">
+      <div class="about-content">
+        <img src="télécharger.jpg" alt="À propos de nous">
+        <h2>A propos de Nous</h2>
+        <p>Nous sommes une équipe dévouée de professionnels de la garde d'enfants, offrant des services de nounous qualifiées et fiables pour répondre à vos besoins. Notre priorité est la sécurité, le bien-être et le bonheur de vos enfants. Nous comprenons l'importance de trouver la bonne personne pour prendre soin de vos petits, c'est pourquoi nous nous engageons à fournir un service de qualité et à établir des liens de confiance avec chaque famille que nous servons.</p>
+        <div></div>
+      <div  class="col50">
+      <div class="img">
+    </div>
+  </section>
+  
+  <section class="gallery">
+    
+    <h2>Nos nounous et nos petits</h2>
+    <div class="image-grid">
+      <img src="images (1).jpg" alt="Nounou avec enfant">
+      <img src="images (4).jpg" alt="Nounou avec enfant">
+      <img src="images (3).jpg" alt="Enfant heureux">
+      <img src="télécharger (1).jpg" alt="Enfant jouant">
+    </div>
+  </section>
+  
+  <footer>
+    <p>Téléphone: 01 23 45 67 89 <br>
+    | Email: contact@merveille-reservation.com</p>
+
+  </footer>
+</body>
+</html>
+
+
+<!--DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Service de Nounous</title>
+  <link rel="stylesheet" href="Nounou.css">
+</head>
+<body>
+  <header>
+    <h1>Service de Nounous</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Tarifs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="hero" style="background-image: url('télécharger\ \(1\).jpg');">
+    <div class="hero-content">
+      <h2>Bienvenue chez Service de Nounous</h2>
+      <p>La solution idéale pour la garde de vos enfants.</p>
+      <a href="#" class="btn">S'inscrire</a>
+    </div>
+  </section>
+  
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <img src="télécharger.jpg" alt="À propos de nous">
+        <p>Nous sommes une équipe dévouée de professionnels de la garde d'enfants, offrant des services de nounous qualifiées et fiables pour répondre à vos besoins. Notre priorité est la sécurité, le bien-être et le bonheur de vos enfants. Nous comprenons l'importance de trouver la bonne personne pour prendre soin de vos petits, c'est pourquoi nous nous engageons à fournir un service de qualité et à établir des liens de confiance avec chaque famille que nous servons.</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Service de Nounous. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+

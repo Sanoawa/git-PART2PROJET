@@ -1,0 +1,34 @@
+<?php
+//connexin à la base de donnée
+
+$serveur = "localhost";
+$utilisateur = "root";
+$mot_de_pass = "";
+$base_donnee = "nounou_app";
+
+$connexion = new mysqli($serveur, $utilisateur, $mot_de_pass, $base_donnee);
+//verification de laconnexion
+
+if ($connexion -> connect_error) {
+   die("echec de la connexion: " . $connexion -> connect_error);
+}
+
+//recuperation des donnees
+
+$nom = $_POST['nom'];
+$prenom = $_POST['prenom'];
+$age = $_POST['age'];
+$Experience = $_POST['experience'];
+$Adresse_email = $_POST['adresse_email'];
+$mot_de_pass = $_POST['password'];
+
+$sql = "INSERT INTO Devenir_nounou (nom,prenoms,age,Experience,Adresse_email,mot_de_passe) VALUES ('$nom','$prenom','$age','$Experience','$Adresse_email','$mot_de_pass')";
+if ($connexion->query($sql) === TRUE) {
+   header("location: devenir.php");
+   exit();
+} else {
+   echo "Erreur : " . $sql . "<br>" . $connexion ->error;
+}
+//fermeture de laconnection
+$connexion -> close();
+?>
